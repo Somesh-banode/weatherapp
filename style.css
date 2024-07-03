@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #595b5e;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+
+}
+main{
+    text-align: center;
+    justify-content: center;
+    font-size: 4vmin;
+    
+}
+.container{
+    height: 90vh; /* set 70% of vertical height of screen*/
+    display: flex; /* make boxes alingn in sa,e line*/
+    justify-content: center;
+    /* align-items: center; */
+    align-items: flex-start;
+    background-color: 2E3138;
+}
+.card{
+    align-items: center;
+    justify-self: center;
+    background: linear-gradient(180deg, #4e74b4, #9dc9f0, #4e74b4);
+    /*height: 75vmin;*/
+    width: 50vmin;
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: 2vmin 2vmin 2vmin 0.2vmin #343434 ;
+}
+.search{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:1vmin;
+    padding: 2.5vmin;
+    width: 45vmin;
+
+}
+.search input{
+    border: none;
+    outline: none;
+    background-color: #e8ffff;
+    width: 34vmin;
+    padding: 1.5vmin;
+    border-radius: 1.5rem;
+    font-style: italic;
+    font-family:serif;
+    font-size: 2.5vmin;
+}
+.search button{
+    border: none;
+    outline: none;
+    background: #343434;
+    border-radius: 50%;
+    width: 5vmin;
+    height: 5vmin;
+    cursor: pointer; 
+    align-items: center;  
+
+}
+.search button img{
+    height:3vmin;   /*give image either height or weight to make ratio same*/
+}
+
+.weather-icon{
+    width: 15vmin;
+    margin-top: 1vmin;
+}
+.weather h1{
+    font-size: 8vmin;
+    font-weight: 20;
+}
+.weather h2{
+    font-size: 4vmin;
+    font-weight: 20;
+    margin-top: 1vmin;
+    font-family: cursive;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2vmin;
+    font-family: cursive;
+
+}
+.details img{
+    height: 8vmin;
+    padding: 2vmin;
+}
+.details p{
+    font-size: 3vmin;
+    font-weight: 20;
+    margin-top: 1vmin;
+}
+ .weather{
+    display: none;
+} 
+
+.error p{
+    font-size: 3vmin;
+    font-weight: 20;
+    font-family: 'system-ui', Courier, monospace;
+    padding: 1vmin;
+    color: rgb(0, 22, 119);
+    display: none;
+
+}
